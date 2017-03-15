@@ -28,7 +28,7 @@ public class DataSourcesConfig {
         DruidDataSource dataSource = new DruidDataSource();
         dataSource.setUrl("jdbc:mysql://localhost:3306/springboot");
         dataSource.setUsername("root");
-        dataSource.setPassword("7946521");
+        dataSource.setPassword("123456");
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         //配置最大连接
         dataSource.setMaxActive(20);
