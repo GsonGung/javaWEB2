@@ -71,7 +71,7 @@ public class DataSourcesConfig {
         reg.addUrlMappings("/druid/*");
         //reg.addInitParameter("allow", "127.0.0.1");
         //reg.addInitParameter("deny","");
-        reg.addInitParameter("loginUsername", "niuli");
+        reg.addInitParameter("loginUsername", "gongjd");
         reg.addInitParameter("loginPassword", "123456");
         return reg;
     }

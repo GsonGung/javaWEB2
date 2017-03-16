@@ -20,10 +20,7 @@ public class ProductController {
 	private Logger logger = LoggerFactory.getLogger(ProductController.class);
     @Resource
     private ProductMapper productMapper;
-    /**
-     * 测试hello
-     * @return
-     */
+
     @RequestMapping(value = "/findAllProds",method = RequestMethod.GET)
     public String findAllProds(Model model) {
     	List<Product> prods = productMapper.findAllProds();
