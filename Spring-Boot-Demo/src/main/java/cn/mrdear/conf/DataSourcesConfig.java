@@ -22,14 +22,14 @@ public class DataSourcesConfig {
      * @return
      * @throws SQLException
      */
-    @Primary //默认数据源
-    @Bean(name = "dataSource",destroyMethod = "close")
+    //@Primary //默认数据源
+    //@Bean(name = "dataSource",destroyMethod = "close")
     public DruidDataSource Construction() throws SQLException {
         DruidDataSource dataSource = new DruidDataSource();
-        dataSource.setUrl("jdbc:mysql://localhost:3306/springboot");
-        dataSource.setUsername("root");
-        dataSource.setPassword("123456");
-        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+//        dataSource.setUrl("jdbc:mysql://localhost:3306/springboot");
+//        dataSource.setUsername("root");
+//        dataSource.setPassword("123456");
+//        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         //配置最大连接
         dataSource.setMaxActive(20);
         //配置初始连接

@@ -1,6 +1,8 @@
 package cn.mrdear.mapper;
 
 import cn.mrdear.entity.User;
+import java.util.List;
+
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -16,4 +18,10 @@ public interface UserMapper {
      * @return
      */
     User findById(int id);
+    
+    List<User> findAllUsers();
+    
+    int addUser(User user);
+    
+    int deleteUserById(int id);
 }

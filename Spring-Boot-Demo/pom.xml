@@ -94,7 +94,6 @@
     </dependency>
     <!--junit end-->
 
-
   </dependencies>
   <build>
     <!--spring boot plugin start-->
