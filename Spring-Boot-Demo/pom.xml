@@ -18,17 +18,27 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>1.4.0.RELEASE</version>
+    <version>1.4.1.RELEASE</version>
   </parent>
 
 
   <dependencies>
-
-    <!--spring boot start-->
+    <!-- 添加对redis的支持 -->
+    <dependency>  
+      <groupId>org.springframework.boot</groupId>  
+      <artifactId>spring-boot-starter-redis</artifactId>  
+    </dependency>
+    <!-- 添加对thymeleaf的支持-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
     </dependency>
+    <!-- 添加对junit等测试的支持 -->
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-test</artifactId>
+		<scope>test</scope>
+	</dependency>
     <!--mybatis start-->
     <dependency>
       <groupId>org.mybatis.spring.boot</groupId>
@@ -44,7 +54,7 @@
       <groupId>org.mybatis.caches</groupId>
       <artifactId>mybatis-ehcache</artifactId>
       <version>1.0.3</version>
-    </dependency>
+    </dependency>  
     <!--mybatis end-->
 
     <!--spring boot end-->
@@ -76,7 +86,11 @@
       <version>1.2.14</version>
     </dependency>
     <!--fast json end-->
-
+    <dependency>
+    	<groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-configuration-processor</artifactId>
+    	<optional>true</optional>
+    </dependency>
   </dependencies>
   <build>
     <!--spring boot plugin start-->
