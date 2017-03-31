@@ -69,14 +69,6 @@
     </dependency>
     <!--druid end-->
 
-    <!--mysql start-->
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.39</version>
-    </dependency>
-    <!--mysql end-->
-
     <!--fast json start-->
     <dependency>
       <groupId>com.alibaba</groupId>
@@ -84,15 +76,6 @@
       <version>1.2.14</version>
     </dependency>
     <!--fast json end-->
-
-    <!--junit start-->
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.12</version>
-      <scope>test</scope>
-    </dependency>
-    <!--junit end-->
 
   </dependencies>
   <build>
