@@ -1,29 +1,21 @@
 package cn.mrdear.entity;
 
-import java.io.Serializable;
-
 /**
- * 用户实体类
- * @author Niu Li
- * @date 2016/8/12
+ * Created by gongjd on 2017/4/10.
  */
-public class User implements Serializable{
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = -8302324903615166327L;
-	
-	private int id;
+public class RedisUser {
+
+    private int id;
     private String username;
     private String password;
 
-    public User(int id, String username, String password) {
-    	this.id = id;
+    public RedisUser(int id, String username, String password) {
+        this.id = id;
         this.username = username;
         this.password = password;
     }
 
-	public int getId() {
+    public int getId() {
         return id;
     }
 
@@ -46,5 +38,4 @@ public class User implements Serializable{
     public void setPassword(String password) {
         this.password = password;
     }
-    
 }

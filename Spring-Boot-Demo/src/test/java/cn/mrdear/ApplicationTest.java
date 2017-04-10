@@ -1,26 +1,24 @@
 package cn.mrdear;
 
+import cn.mrdear.entity.RedisUser;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import cn.mrdear.entity.User;
-
-import org.springframework.boot.test.context.SpringBootTest;
-
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ApplicationTests {
+public class ApplicationTest {
 	
 	@Autowired
 	private StringRedisTemplate stringRedisTemplate;
 	
 	@Autowired
-	private RedisTemplate<String, User> redisTemplate;
+	private RedisTemplate<String, RedisUser> redisTemplate;
 	
 	// 保存字符串
 	@Test
@@ -32,11 +30,11 @@ public class ApplicationTests {
 	//保存对象
 	@Test
 	public void testSetObj() throws Exception {
-		User user = new User(1, "超人", "20");
+		RedisUser user = new RedisUser(1, "超人", "20");
 		redisTemplate.opsForValue().set(user.getUsername(), user);
-		user = new User(2, "蝙蝠侠", "30");
+		user = new RedisUser(2, "蝙蝠侠", "30");
 		redisTemplate.opsForValue().set(user.getUsername(), user);
-		user = new User(3, "蜘蛛侠", "40");
+		user = new RedisUser(3, "蜘蛛侠", "40");
 		redisTemplate.opsForValue().set(user.getUsername(), user);
 		Assert.assertEquals("20", redisTemplate.opsForValue().get("超人").getPassword());
 		Assert.assertEquals("30", redisTemplate.opsForValue().get("蝙蝠侠").getPassword());
@@ -46,9 +44,9 @@ public class ApplicationTests {
 	//获取对象
 	@Test
 	public void testGetObj() throws Exception {
-		User u1 = redisTemplate.opsForValue().get("超人");
-		User u2 = redisTemplate.opsForValue().get("蝙蝠侠");
-		User u3 = redisTemplate.opsForValue().get("蜘蛛侠");
+		RedisUser u1 = redisTemplate.opsForValue().get("超人");
+		RedisUser u2 = redisTemplate.opsForValue().get("蝙蝠侠");
+		RedisUser u3 = redisTemplate.opsForValue().get("蜘蛛侠");
 		
 		System.out.println(u1);
 		System.out.println(u2);

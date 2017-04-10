@@ -79,6 +79,14 @@
     </dependency>
     <!--druid end-->
 
+    <!--mysql start-->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.39</version>
+    </dependency>
+    <!--mysql end-->
+
     <!--fast json start-->
     <dependency>
       <groupId>com.alibaba</groupId>
@@ -91,6 +99,7 @@
     	<artifactId>spring-boot-configuration-processor</artifactId>
     	<optional>true</optional>
     </dependency>
+
   </dependencies>
   <build>
     <!--spring boot plugin start-->

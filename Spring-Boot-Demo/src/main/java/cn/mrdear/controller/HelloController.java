@@ -1,9 +1,8 @@
 package cn.mrdear.controller;
 
-import java.util.List;
-
-import javax.annotation.Resource;
-
+import cn.mrdear.entity.User;
+import cn.mrdear.mapper.UserMapper;
+import com.alibaba.fastjson.JSONArray;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -13,11 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
-
-import cn.mrdear.entity.User;
-import cn.mrdear.mapper.UserMapper;
+import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * @author Niu Li
@@ -41,8 +37,8 @@ public class HelloController {
 
     @RequestMapping(value = "/findUserById/{id}",method = RequestMethod.GET)
     public @ResponseBody User testUserDao1(@PathVariable("id") int id){
-        User user = userMapper.findById(1);
-        logger.info("findUserById---id:"+id+",result:"+JSONObject.toJSONString(user));
+        User user = userMapper.findById(id);
+        logger.info("findUserById---id:"+id+",result:"+JSONArray.toJSONString(user));
         return user;
     }
     
@@ -56,14 +52,14 @@ public class HelloController {
     @RequestMapping(value = "/addUser",method = RequestMethod.GET)
     public @ResponseBody int testUserDao3(User user){
         int rows = userMapper.addUser(user);
-        logger.info("addUser---user:"+JSONObject.toJSONString(user)+",result:"+JSONArray.toJSONString(rows));
+        logger.info("addUser---user:"+JSONArray.toJSONString(user)+",result:"+rows);
         return rows;
     }
     
     @RequestMapping(value = "/deleteUser/{id}",method = RequestMethod.GET)
     public @ResponseBody int testUserDao4(@PathVariable("id") int id){
         int rows = userMapper.deleteUserById(id);
-        logger.info("deleteUser---id:"+id+",result:"+JSONArray.toJSONString(rows));
+        logger.info("deleteUser---id:"+id+",result:"+rows);
         return rows;
     }
 
