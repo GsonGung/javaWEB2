@@ -1,0 +1,397 @@
+2017-03-31 20:09:53.746  INFO 7156 --- [main] cn.mrdear.ApplicationTests               : Starting ApplicationTests on ADMIN-PC with PID 7156 (started by Administrator in D:\IdeaProjects\javaWEB2\Spring-Boot-Demo)
+2017-03-31 20:09:53.749 DEBUG 7156 --- [main] cn.mrdear.ApplicationTests               : Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2017-03-31 20:09:53.749  INFO 7156 --- [main] cn.mrdear.ApplicationTests               : No active profile set, falling back to default profiles: default
+2017-03-31 20:09:54.443  INFO 7156 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@231f98ef: startup date [Fri Mar 31 20:09:54 CST 2017]; root of context hierarchy
+2017-03-31 20:09:56.315  INFO 7156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-03-31 20:09:56.963  INFO 7156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:09:57.211  INFO 7156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:09:57.339  INFO 7156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:09:57.345  INFO 7156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3670f3e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:09:57.383  INFO 7156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:09:57.384  INFO 7156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisConfig' of type [class cn.mrdear.conf.MybatisConfig$$EnhancerBySpringCGLIB$$a3dda246] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:09:57.408  INFO 7156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [class org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:09:57.408  INFO 7156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$547d5082] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:09:57.814 DEBUG 7156 --- [main] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from ehcache.xml found in the classpath: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-03-31 20:09:57.814 DEBUG 7156 --- [main] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from URL: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-03-31 20:09:57.816 DEBUG 7156 --- [main] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from InputStream
+2017-03-31 20:09:57.839 DEBUG 7156 --- [main] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xmlns:xsi
+2017-03-31 20:09:57.840 DEBUG 7156 --- [main] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-03-31 20:09:57.842 DEBUG 7156 --- [main] n.s.e.config.DiskStoreConfiguration      : Disk Store Path: E:\test
+2017-03-31 20:09:57.864 DEBUG 7156 --- [main] net.sf.ehcache.CacheManager              : Creating new CacheManager with default config
+2017-03-31 20:09:57.874 DEBUG 7156 --- [main] net.sf.ehcache.util.PropertyUtil         : propertiesString is null.
+2017-03-31 20:09:57.894 DEBUG 7156 --- [main] n.sf.ehcache.config.ConfigurationHelper  : No CacheManagerEventListenerFactory class specified. Skipping...
+2017-03-31 20:09:58.722 DEBUG 7156 --- [main] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-03-31 20:09:58.722 DEBUG 7156 --- [main] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-03-31 20:09:58.729 DEBUG 7156 --- [main] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-03-31 20:09:58.776 DEBUG 7156 --- [main] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-03-31 20:09:58.776 DEBUG 7156 --- [main] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-03-31 20:09:58.776 DEBUG 7156 --- [main] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-03-31 20:09:58.805 DEBUG 7156 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for hello
+2017-03-31 20:09:58.825 DEBUG 7156 --- [main] net.sf.ehcache.DiskStorePathManager      : Using diskstore path E:\test
+2017-03-31 20:09:58.826 DEBUG 7156 --- [main] net.sf.ehcache.DiskStorePathManager      : Holding exclusive lock on E:\test\.ehcache-diskstore.lock
+2017-03-31 20:09:58.828 DEBUG 7156 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-03-31 20:09:58.840 DEBUG 7156 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\hello.index
+2017-03-31 20:09:58.841 DEBUG 7156 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-03-31 20:09:58.853 DEBUG 7156 --- [main] net.sf.ehcache.Cache                     : Initialised cache: hello
+2017-03-31 20:09:58.853 DEBUG 7156 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured. Skipping for 'hello'.
+2017-03-31 20:09:58.853 DEBUG 7156 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'hello'.
+2017-03-31 20:09:58.859 DEBUG 7156 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.ProductMapper
+2017-03-31 20:09:58.862 DEBUG 7156 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 20:09:58.863 DEBUG 7156 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 20:09:58.864 DEBUG 7156 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 20:09:58.865 DEBUG 7156 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.ProductMapper
+2017-03-31 20:09:58.865 DEBUG 7156 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.ProductMapper'.
+2017-03-31 20:09:58.974 DEBUG 7156 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.UserMapper
+2017-03-31 20:09:58.976 DEBUG 7156 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 20:09:58.977 DEBUG 7156 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 20:09:58.978 DEBUG 7156 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 20:09:58.979 DEBUG 7156 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.UserMapper
+2017-03-31 20:09:58.979 DEBUG 7156 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.UserMapper'.
+2017-03-31 20:09:59.174  INFO 7156 --- [main] cn.mrdear.conf.RedisConfig               : JedisConnectionFactory bean init success.
+2017-03-31 20:10:00.194  INFO 7156 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@231f98ef: startup date [Fri Mar 31 20:09:54 CST 2017]; root of context hierarchy
+2017-03-31 20:10:00.297  INFO 7156 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.HelloController.hello(org.springframework.ui.Model)
+2017-03-31 20:10:00.299  INFO 7156 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUserById/{id}],methods=[GET]}" onto public cn.mrdear.entity.User cn.mrdear.controller.HelloController.testUserDao1(int)
+2017-03-31 20:10:00.299  INFO 7156 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllUsers],methods=[GET]}" onto public java.util.List<cn.mrdear.entity.User> cn.mrdear.controller.HelloController.testUserDao2()
+2017-03-31 20:10:00.299  INFO 7156 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addUser],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao3(cn.mrdear.entity.User)
+2017-03-31 20:10:00.300  INFO 7156 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser/{id}],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao4(int)
+2017-03-31 20:10:00.300  INFO 7156 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllProds],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.ProductController.findAllProds(org.springframework.ui.Model)
+2017-03-31 20:10:00.303  INFO 7156 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-31 20:10:00.303  INFO 7156 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-31 20:10:00.353  INFO 7156 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 20:10:00.353  INFO 7156 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 20:10:00.421  INFO 7156 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 20:10:01.454  WARN 7156 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-03-31 20:10:01.548  INFO 7156 --- [main] cn.mrdear.ApplicationTests               : Started ApplicationTests in 9.585 seconds (JVM running for 11.962)
+2017-03-31 20:10:01.692  INFO 7156 --- [Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@231f98ef: startup date [Fri Mar 31 20:09:54 CST 2017]; root of context hierarchy
+2017-03-31 20:10:27.383  INFO 7228 --- [main] cn.mrdear.ApplicationTests               : Starting ApplicationTests on ADMIN-PC with PID 7228 (started by Administrator in D:\IdeaProjects\javaWEB2\Spring-Boot-Demo)
+2017-03-31 20:10:27.386 DEBUG 7228 --- [main] cn.mrdear.ApplicationTests               : Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2017-03-31 20:10:27.386  INFO 7228 --- [main] cn.mrdear.ApplicationTests               : No active profile set, falling back to default profiles: default
+2017-03-31 20:10:27.948  INFO 7228 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@231f98ef: startup date [Fri Mar 31 20:10:27 CST 2017]; root of context hierarchy
+2017-03-31 20:10:30.250  INFO 7228 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-03-31 20:10:30.795  INFO 7228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:10:30.999  INFO 7228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:10:31.131  INFO 7228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:10:31.139  INFO 7228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$29253760] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:10:31.173  INFO 7228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:10:31.173  INFO 7228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisConfig' of type [class cn.mrdear.conf.MybatisConfig$$EnhancerBySpringCGLIB$$9691e5c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:10:31.190  INFO 7228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [class org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:10:31.191  INFO 7228 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$47319400] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:10:31.499 DEBUG 7228 --- [main] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from ehcache.xml found in the classpath: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-03-31 20:10:31.500 DEBUG 7228 --- [main] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from URL: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-03-31 20:10:31.502 DEBUG 7228 --- [main] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from InputStream
+2017-03-31 20:10:31.518 DEBUG 7228 --- [main] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xmlns:xsi
+2017-03-31 20:10:31.518 DEBUG 7228 --- [main] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-03-31 20:10:31.519 DEBUG 7228 --- [main] n.s.e.config.DiskStoreConfiguration      : Disk Store Path: E:\test
+2017-03-31 20:10:31.535 DEBUG 7228 --- [main] net.sf.ehcache.CacheManager              : Creating new CacheManager with default config
+2017-03-31 20:10:31.543 DEBUG 7228 --- [main] net.sf.ehcache.util.PropertyUtil         : propertiesString is null.
+2017-03-31 20:10:31.557 DEBUG 7228 --- [main] n.sf.ehcache.config.ConfigurationHelper  : No CacheManagerEventListenerFactory class specified. Skipping...
+2017-03-31 20:10:32.230 DEBUG 7228 --- [main] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-03-31 20:10:32.230 DEBUG 7228 --- [main] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-03-31 20:10:32.232 DEBUG 7228 --- [main] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-03-31 20:10:32.245 DEBUG 7228 --- [main] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-03-31 20:10:32.245 DEBUG 7228 --- [main] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-03-31 20:10:32.245 DEBUG 7228 --- [main] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-03-31 20:10:32.268 DEBUG 7228 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for hello
+2017-03-31 20:10:32.281 DEBUG 7228 --- [main] net.sf.ehcache.DiskStorePathManager      : Using diskstore path E:\test
+2017-03-31 20:10:32.281 DEBUG 7228 --- [main] net.sf.ehcache.DiskStorePathManager      : Holding exclusive lock on E:\test\.ehcache-diskstore.lock
+2017-03-31 20:10:32.282 DEBUG 7228 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-03-31 20:10:32.294 DEBUG 7228 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\hello.index
+2017-03-31 20:10:32.295 DEBUG 7228 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-03-31 20:10:32.307 DEBUG 7228 --- [main] net.sf.ehcache.Cache                     : Initialised cache: hello
+2017-03-31 20:10:32.308 DEBUG 7228 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured. Skipping for 'hello'.
+2017-03-31 20:10:32.308 DEBUG 7228 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'hello'.
+2017-03-31 20:10:32.313 DEBUG 7228 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.ProductMapper
+2017-03-31 20:10:32.316 DEBUG 7228 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 20:10:32.317 DEBUG 7228 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 20:10:32.318 DEBUG 7228 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 20:10:32.318 DEBUG 7228 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.ProductMapper
+2017-03-31 20:10:32.318 DEBUG 7228 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.ProductMapper'.
+2017-03-31 20:10:32.411 DEBUG 7228 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.UserMapper
+2017-03-31 20:10:32.413 DEBUG 7228 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 20:10:32.414 DEBUG 7228 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 20:10:32.415 DEBUG 7228 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 20:10:32.416 DEBUG 7228 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.UserMapper
+2017-03-31 20:10:32.416 DEBUG 7228 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.UserMapper'.
+2017-03-31 20:10:32.617  INFO 7228 --- [main] cn.mrdear.conf.RedisConfig               : JedisConnectionFactory bean init success.
+2017-03-31 20:10:33.530  INFO 7228 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@231f98ef: startup date [Fri Mar 31 20:10:27 CST 2017]; root of context hierarchy
+2017-03-31 20:10:33.638  INFO 7228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.HelloController.hello(org.springframework.ui.Model)
+2017-03-31 20:10:33.640  INFO 7228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUserById/{id}],methods=[GET]}" onto public cn.mrdear.entity.User cn.mrdear.controller.HelloController.testUserDao1(int)
+2017-03-31 20:10:33.640  INFO 7228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllUsers],methods=[GET]}" onto public java.util.List<cn.mrdear.entity.User> cn.mrdear.controller.HelloController.testUserDao2()
+2017-03-31 20:10:33.640  INFO 7228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addUser],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao3(cn.mrdear.entity.User)
+2017-03-31 20:10:33.641  INFO 7228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser/{id}],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao4(int)
+2017-03-31 20:10:33.641  INFO 7228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllProds],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.ProductController.findAllProds(org.springframework.ui.Model)
+2017-03-31 20:10:33.644  INFO 7228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-31 20:10:33.644  INFO 7228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-31 20:10:33.690  INFO 7228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 20:10:33.690  INFO 7228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 20:10:33.754  INFO 7228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 20:10:34.632  WARN 7228 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-03-31 20:10:34.722  INFO 7228 --- [main] cn.mrdear.ApplicationTests               : Started ApplicationTests in 8.049 seconds (JVM running for 9.546)
+2017-03-31 20:10:34.828  INFO 7228 --- [Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@231f98ef: startup date [Fri Mar 31 20:10:27 CST 2017]; root of context hierarchy
+2017-03-31 20:11:31.552  INFO 5128 --- [main] cn.mrdear.ApplicationTests               : Starting ApplicationTests on ADMIN-PC with PID 5128 (started by Administrator in D:\IdeaProjects\javaWEB2\Spring-Boot-Demo)
+2017-03-31 20:11:31.556 DEBUG 5128 --- [main] cn.mrdear.ApplicationTests               : Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2017-03-31 20:11:31.557  INFO 5128 --- [main] cn.mrdear.ApplicationTests               : No active profile set, falling back to default profiles: default
+2017-03-31 20:11:32.011  INFO 5128 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@231f98ef: startup date [Fri Mar 31 20:11:32 CST 2017]; root of context hierarchy
+2017-03-31 20:11:34.065  INFO 5128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-03-31 20:11:34.640  INFO 5128 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:11:34.934  INFO 5128 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:11:35.067  INFO 5128 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:11:35.075  INFO 5128 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3670f3e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:11:35.108  INFO 5128 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:11:35.109  INFO 5128 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisConfig' of type [class cn.mrdear.conf.MybatisConfig$$EnhancerBySpringCGLIB$$a3dda246] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:11:35.130  INFO 5128 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [class org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:11:35.131  INFO 5128 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$547d5082] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 20:11:35.444 DEBUG 5128 --- [main] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from ehcache.xml found in the classpath: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-03-31 20:11:35.444 DEBUG 5128 --- [main] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from URL: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-03-31 20:11:35.446 DEBUG 5128 --- [main] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from InputStream
+2017-03-31 20:11:35.463 DEBUG 5128 --- [main] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xmlns:xsi
+2017-03-31 20:11:35.463 DEBUG 5128 --- [main] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-03-31 20:11:35.464 DEBUG 5128 --- [main] n.s.e.config.DiskStoreConfiguration      : Disk Store Path: E:\test
+2017-03-31 20:11:35.481 DEBUG 5128 --- [main] net.sf.ehcache.CacheManager              : Creating new CacheManager with default config
+2017-03-31 20:11:35.489 DEBUG 5128 --- [main] net.sf.ehcache.util.PropertyUtil         : propertiesString is null.
+2017-03-31 20:11:35.504 DEBUG 5128 --- [main] n.sf.ehcache.config.ConfigurationHelper  : No CacheManagerEventListenerFactory class specified. Skipping...
+2017-03-31 20:11:36.195 DEBUG 5128 --- [main] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-03-31 20:11:36.195 DEBUG 5128 --- [main] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-03-31 20:11:36.197 DEBUG 5128 --- [main] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-03-31 20:11:36.205 DEBUG 5128 --- [main] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-03-31 20:11:36.205 DEBUG 5128 --- [main] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-03-31 20:11:36.205 DEBUG 5128 --- [main] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-03-31 20:11:36.233 DEBUG 5128 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for hello
+2017-03-31 20:11:36.245 DEBUG 5128 --- [main] net.sf.ehcache.DiskStorePathManager      : Using diskstore path E:\test
+2017-03-31 20:11:36.246 DEBUG 5128 --- [main] net.sf.ehcache.DiskStorePathManager      : Holding exclusive lock on E:\test\.ehcache-diskstore.lock
+2017-03-31 20:11:36.247 DEBUG 5128 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-03-31 20:11:36.261 DEBUG 5128 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\hello.index
+2017-03-31 20:11:36.261 DEBUG 5128 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-03-31 20:11:36.273 DEBUG 5128 --- [main] net.sf.ehcache.Cache                     : Initialised cache: hello
+2017-03-31 20:11:36.273 DEBUG 5128 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured. Skipping for 'hello'.
+2017-03-31 20:11:36.273 DEBUG 5128 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'hello'.
+2017-03-31 20:11:36.279 DEBUG 5128 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.ProductMapper
+2017-03-31 20:11:36.282 DEBUG 5128 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 20:11:36.283 DEBUG 5128 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 20:11:36.284 DEBUG 5128 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 20:11:36.285 DEBUG 5128 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.ProductMapper
+2017-03-31 20:11:36.285 DEBUG 5128 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.ProductMapper'.
+2017-03-31 20:11:36.415 DEBUG 5128 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.UserMapper
+2017-03-31 20:11:36.417 DEBUG 5128 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 20:11:36.419 DEBUG 5128 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 20:11:36.420 DEBUG 5128 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 20:11:36.420 DEBUG 5128 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.UserMapper
+2017-03-31 20:11:36.420 DEBUG 5128 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.UserMapper'.
+2017-03-31 20:11:36.611  INFO 5128 --- [main] cn.mrdear.conf.RedisConfig               : JedisConnectionFactory bean init success.
+2017-03-31 20:11:37.544  INFO 5128 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@231f98ef: startup date [Fri Mar 31 20:11:32 CST 2017]; root of context hierarchy
+2017-03-31 20:11:37.643  INFO 5128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addUser],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao3(cn.mrdear.entity.User)
+2017-03-31 20:11:37.645  INFO 5128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser/{id}],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao4(int)
+2017-03-31 20:11:37.645  INFO 5128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.HelloController.hello(org.springframework.ui.Model)
+2017-03-31 20:11:37.645  INFO 5128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUserById/{id}],methods=[GET]}" onto public cn.mrdear.entity.User cn.mrdear.controller.HelloController.testUserDao1(int)
+2017-03-31 20:11:37.647  INFO 5128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllUsers],methods=[GET]}" onto public java.util.List<cn.mrdear.entity.User> cn.mrdear.controller.HelloController.testUserDao2()
+2017-03-31 20:11:37.649  INFO 5128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllProds],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.ProductController.findAllProds(org.springframework.ui.Model)
+2017-03-31 20:11:37.655  INFO 5128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-31 20:11:37.656  INFO 5128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-31 20:11:37.700  INFO 5128 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 20:11:37.701  INFO 5128 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 20:11:37.761  INFO 5128 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 20:11:38.643  WARN 5128 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-03-31 20:11:38.738  INFO 5128 --- [main] cn.mrdear.ApplicationTests               : Started ApplicationTests in 7.907 seconds (JVM running for 9.321)
+2017-03-31 20:11:38.842  INFO 5128 --- [Thread-5] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@231f98ef: startup date [Fri Mar 31 20:11:32 CST 2017]; root of context hierarchy
+2017-03-31 22:35:20.893  INFO 11868 --- [main] cn.mrdear.Application                    : Starting Application on ADMIN-PC with PID 11868 (D:\IdeaProjects\javaWEB2\Spring-Boot-Demo\target\classes started by Administrator in D:\IdeaProjects\javaWEB2\Spring-Boot-Demo)
+2017-03-31 22:35:20.907 DEBUG 11868 --- [main] cn.mrdear.Application                    : Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2017-03-31 22:35:20.908  INFO 11868 --- [main] cn.mrdear.Application                    : No active profile set, falling back to default profiles: default
+2017-03-31 22:35:21.790  INFO 11868 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399f45b1: startup date [Fri Mar 31 22:35:21 CST 2017]; root of context hierarchy
+2017-03-31 22:35:26.293  INFO 11868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-03-31 22:35:27.171  INFO 11868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 22:35:27.413  INFO 11868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 22:35:27.567  INFO 11868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 22:35:27.575  INFO 11868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$5f67a586] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 22:35:27.612  INFO 11868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 22:35:27.616  INFO 11868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisConfig' of type [class cn.mrdear.conf.MybatisConfig$$EnhancerBySpringCGLIB$$ccd453ea] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 22:35:27.639  INFO 11868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [class org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 22:35:27.640  INFO 11868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7d740226] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 22:35:29.362  INFO 11868 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-03-31 22:35:29.403  INFO 11868 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-31 22:35:29.406  INFO 11868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-03-31 22:35:29.808  INFO 11868 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-31 22:35:29.808  INFO 11868 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8027 ms
+2017-03-31 22:35:30.332  INFO 11868 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-03-31 22:35:30.344  INFO 11868 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-31 22:35:30.352  INFO 11868 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-31 22:35:30.354  INFO 11868 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-31 22:35:30.354  INFO 11868 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-31 22:35:30.354  INFO 11868 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-31 22:35:30.355  INFO 11868 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2017-03-31 22:35:30.355  INFO 11868 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'gzipFilter' to urls: [*.js, *.css, *.json, *.html]
+2017-03-31 22:35:30.355  INFO 11868 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'simplePageCachingFilter' to urls: [/hello]
+2017-03-31 22:35:30.419 DEBUG 11868 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.SimplePageCachingFilter
+2017-03-31 22:35:30.420 DEBUG 11868 --- [localhost-startStop-1] n.s.e.c.w.f.SimplePageCachingFilter      : Using configured cacheName of hello.
+2017-03-31 22:35:30.446 DEBUG 11868 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from ehcache.xml found in the classpath: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-03-31 22:35:30.447 DEBUG 11868 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from URL: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-03-31 22:35:30.447 DEBUG 11868 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from InputStream
+2017-03-31 22:35:30.476 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xmlns:xsi
+2017-03-31 22:35:30.477 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-03-31 22:35:30.479 DEBUG 11868 --- [localhost-startStop-1] n.s.e.config.DiskStoreConfiguration      : Disk Store Path: E:\test
+2017-03-31 22:35:30.502 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Creating new CacheManager with default config
+2017-03-31 22:35:30.512 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.util.PropertyUtil         : propertiesString is null.
+2017-03-31 22:35:30.529 DEBUG 11868 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheManagerEventListenerFactory class specified. Skipping...
+2017-03-31 22:35:30.558 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-03-31 22:35:30.558 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-03-31 22:35:30.561 DEBUG 11868 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-03-31 22:35:30.576 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-03-31 22:35:30.576 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-03-31 22:35:30.576 DEBUG 11868 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-03-31 22:35:30.602 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for hello
+2017-03-31 22:35:30.619 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Using diskstore path E:\test
+2017-03-31 22:35:30.619 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Holding exclusive lock on E:\test\.ehcache-diskstore.lock
+2017-03-31 22:35:30.620 DEBUG 11868 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-03-31 22:35:30.638 DEBUG 11868 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\hello.index
+2017-03-31 22:35:30.639 DEBUG 11868 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-03-31 22:35:30.647 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : Initialised cache: hello
+2017-03-31 22:35:30.648 DEBUG 11868 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured. Skipping for 'hello'.
+2017-03-31 22:35:30.648 DEBUG 11868 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'hello'.
+2017-03-31 22:35:30.656 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-03-31 22:35:30.657 DEBUG 11868 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-03-31 22:35:30.658 DEBUG 11868 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.GzipFilter
+2017-03-31 22:35:31.217 DEBUG 11868 --- [main] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-03-31 22:35:31.220 DEBUG 11868 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.ProductMapper
+2017-03-31 22:35:31.225 DEBUG 11868 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 22:35:31.227 DEBUG 11868 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 22:35:31.228 DEBUG 11868 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 22:35:31.228 DEBUG 11868 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.ProductMapper
+2017-03-31 22:35:31.228 DEBUG 11868 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.ProductMapper'.
+2017-03-31 22:35:31.339 DEBUG 11868 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.UserMapper
+2017-03-31 22:35:31.341 DEBUG 11868 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 22:35:31.345 DEBUG 11868 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 22:35:31.345 DEBUG 11868 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 22:35:31.346 DEBUG 11868 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.UserMapper
+2017-03-31 22:35:31.346 DEBUG 11868 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.UserMapper'.
+2017-03-31 22:35:31.454  INFO 11868 --- [main] cn.mrdear.conf.RedisConfig               : JedisConnectionFactory bean init success.
+2017-03-31 22:35:32.508  INFO 11868 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399f45b1: startup date [Fri Mar 31 22:35:21 CST 2017]; root of context hierarchy
+2017-03-31 22:35:32.613  INFO 11868 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.HelloController.hello(org.springframework.ui.Model)
+2017-03-31 22:35:32.614  INFO 11868 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUserById/{id}],methods=[GET]}" onto public cn.mrdear.entity.User cn.mrdear.controller.HelloController.testUserDao1(int)
+2017-03-31 22:35:32.615  INFO 11868 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllUsers],methods=[GET]}" onto public java.util.List<cn.mrdear.entity.User> cn.mrdear.controller.HelloController.testUserDao2()
+2017-03-31 22:35:32.615  INFO 11868 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addUser],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao3(cn.mrdear.entity.User)
+2017-03-31 22:35:32.615  INFO 11868 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser/{id}],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao4(int)
+2017-03-31 22:35:32.616  INFO 11868 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllProds],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.ProductController.findAllProds(org.springframework.ui.Model)
+2017-03-31 22:35:32.618  INFO 11868 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-31 22:35:32.619  INFO 11868 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-31 22:35:32.658  INFO 11868 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 22:35:32.658  INFO 11868 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 22:35:32.726  INFO 11868 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 22:35:33.891  WARN 11868 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-03-31 22:35:34.008  INFO 11868 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-31 22:35:34.199  INFO 11868 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-03-31 22:35:34.254  INFO 11868 --- [main] cn.mrdear.Application                    : Started Application in 14.297 seconds (JVM running for 15.776)
+2017-03-31 22:35:35.030 DEBUG 11868 --- [net.sf.ehcache.CacheManager@54b4a819] net.sf.ehcache.util.UpdateChecker        : Update check failed: 
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_112]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_112]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_112]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_112]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_112]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_112]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_112]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_112]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_112]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_112]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_112]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_112]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_112]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202) ~[na:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138) ~[na:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032) ~[na:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966) ~[na:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546) ~[na:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474) ~[na:1.8.0_112]
+	at net.sf.ehcache.util.UpdateChecker.getUpdateProperties(UpdateChecker.java:108) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.doCheck(UpdateChecker.java:72) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.checkForUpdate(UpdateChecker.java:60) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.run(UpdateChecker.java:51) [ehcache-core-2.6.8.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_112]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_112]
+
+2017-03-31 23:49:17.775  INFO 10312 --- [main] cn.mrdear.Application                    : Starting Application on ADMIN-PC with PID 10312 (D:\IdeaProjects\javaWEB2\Spring-Boot-Demo\target\classes started by Administrator in D:\IdeaProjects\javaWEB2\Spring-Boot-Demo)
+2017-03-31 23:49:17.785 DEBUG 10312 --- [main] cn.mrdear.Application                    : Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2017-03-31 23:49:17.787  INFO 10312 --- [main] cn.mrdear.Application                    : No active profile set, falling back to default profiles: default
+2017-03-31 23:49:18.565  INFO 10312 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399f45b1: startup date [Fri Mar 31 23:49:18 CST 2017]; root of context hierarchy
+2017-03-31 23:49:21.810  INFO 10312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-03-31 23:49:22.535  INFO 10312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 23:49:22.859  INFO 10312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 23:49:22.982  INFO 10312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 23:49:22.991  INFO 10312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$2a96800f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 23:49:23.044  INFO 10312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 23:49:23.047  INFO 10312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisConfig' of type [class cn.mrdear.conf.MybatisConfig$$EnhancerBySpringCGLIB$$98032e73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 23:49:23.111  INFO 10312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [class org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 23:49:23.113  INFO 10312 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$48a2dcaf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-03-31 23:49:24.461  INFO 10312 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-03-31 23:49:24.492  INFO 10312 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-03-31 23:49:24.496  INFO 10312 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-03-31 23:49:24.735  INFO 10312 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-03-31 23:49:24.736  INFO 10312 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6182 ms
+2017-03-31 23:49:25.155  INFO 10312 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-03-31 23:49:25.164  INFO 10312 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-03-31 23:49:25.172  INFO 10312 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-03-31 23:49:25.173  INFO 10312 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-03-31 23:49:25.173  INFO 10312 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-03-31 23:49:25.174  INFO 10312 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-03-31 23:49:25.174  INFO 10312 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2017-03-31 23:49:25.174  INFO 10312 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'gzipFilter' to urls: [*.js, *.css, *.json, *.html]
+2017-03-31 23:49:25.174  INFO 10312 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'simplePageCachingFilter' to urls: [/hello]
+2017-03-31 23:49:25.237 DEBUG 10312 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.SimplePageCachingFilter
+2017-03-31 23:49:25.237 DEBUG 10312 --- [localhost-startStop-1] n.s.e.c.w.f.SimplePageCachingFilter      : Using configured cacheName of hello.
+2017-03-31 23:49:25.265 DEBUG 10312 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from ehcache.xml found in the classpath: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-03-31 23:49:25.266 DEBUG 10312 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from URL: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-03-31 23:49:25.267 DEBUG 10312 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from InputStream
+2017-03-31 23:49:25.301 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xmlns:xsi
+2017-03-31 23:49:25.301 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-03-31 23:49:25.304 DEBUG 10312 --- [localhost-startStop-1] n.s.e.config.DiskStoreConfiguration      : Disk Store Path: E:\test
+2017-03-31 23:49:25.329 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Creating new CacheManager with default config
+2017-03-31 23:49:25.338 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.util.PropertyUtil         : propertiesString is null.
+2017-03-31 23:49:25.354 DEBUG 10312 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheManagerEventListenerFactory class specified. Skipping...
+2017-03-31 23:49:25.380 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-03-31 23:49:25.380 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-03-31 23:49:25.382 DEBUG 10312 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-03-31 23:49:25.392 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-03-31 23:49:25.392 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-03-31 23:49:25.392 DEBUG 10312 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-03-31 23:49:25.424 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for hello
+2017-03-31 23:49:25.446 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Using diskstore path E:\test
+2017-03-31 23:49:25.447 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Holding exclusive lock on E:\test\.ehcache-diskstore.lock
+2017-03-31 23:49:25.448 DEBUG 10312 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-03-31 23:49:25.466 DEBUG 10312 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\hello.index
+2017-03-31 23:49:25.466 DEBUG 10312 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-03-31 23:49:25.481 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : Initialised cache: hello
+2017-03-31 23:49:25.481 DEBUG 10312 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured. Skipping for 'hello'.
+2017-03-31 23:49:25.481 DEBUG 10312 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'hello'.
+2017-03-31 23:49:25.493 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-03-31 23:49:25.494 DEBUG 10312 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-03-31 23:49:25.498 DEBUG 10312 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.GzipFilter
+2017-03-31 23:49:26.107 DEBUG 10312 --- [main] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-03-31 23:49:26.115 DEBUG 10312 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.ProductMapper
+2017-03-31 23:49:26.118 DEBUG 10312 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 23:49:26.121 DEBUG 10312 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 23:49:26.122 DEBUG 10312 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-03-31 23:49:26.124 DEBUG 10312 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.ProductMapper
+2017-03-31 23:49:26.124 DEBUG 10312 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.ProductMapper'.
+2017-03-31 23:49:26.243 DEBUG 10312 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.UserMapper
+2017-03-31 23:49:26.245 DEBUG 10312 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 23:49:26.247 DEBUG 10312 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 23:49:26.247 DEBUG 10312 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-03-31 23:49:26.248 DEBUG 10312 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.UserMapper
+2017-03-31 23:49:26.248 DEBUG 10312 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.UserMapper'.
+2017-03-31 23:49:26.369  INFO 10312 --- [main] cn.mrdear.conf.RedisConfig               : JedisConnectionFactory bean init success.
+2017-03-31 23:49:26.924  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@399f45b1: startup date [Fri Mar 31 23:49:18 CST 2017]; root of context hierarchy
+2017-03-31 23:49:27.035  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.HelloController.hello(org.springframework.ui.Model)
+2017-03-31 23:49:27.037  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUserById/{id}],methods=[GET]}" onto public cn.mrdear.entity.User cn.mrdear.controller.HelloController.testUserDao1(int)
+2017-03-31 23:49:27.037  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllUsers],methods=[GET]}" onto public java.util.List<cn.mrdear.entity.User> cn.mrdear.controller.HelloController.testUserDao2()
+2017-03-31 23:49:27.037  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addUser],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao3(cn.mrdear.entity.User)
+2017-03-31 23:49:27.038  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser/{id}],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao4(int)
+2017-03-31 23:49:27.038  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllProds],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.ProductController.findAllProds(org.springframework.ui.Model)
+2017-03-31 23:49:27.041  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-03-31 23:49:27.041  INFO 10312 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-03-31 23:49:27.081  INFO 10312 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 23:49:27.081  INFO 10312 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 23:49:27.141  INFO 10312 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-03-31 23:49:27.954  WARN 10312 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-03-31 23:49:28.046  INFO 10312 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-03-31 23:49:28.127  INFO 10312 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-03-31 23:49:28.132  INFO 10312 --- [main] cn.mrdear.Application                    : Started Application in 11.384 seconds (JVM running for 13.135)
