@@ -6,20 +6,31 @@
 </head>
 <body>
   <h1>Product list</h1>
-  <table border="1">
-    <tr>
-      <th>NAME</th>
-      <th>PRICE</th>
-      <th>IN STOCK</th>
-    </tr>
-    <tr th:each="prod : ${prods}">
-      <td th:text="${prod.name}"></td>
-      <td th:text="${prod.price}"></td>
-      <td th:text="${prod.inStock}? 是 : 否"></td>
-    </tr>
-  </table>
+    <div th:if="${not #lists.isEmpty(prods)}">
+      <table border="1">
+        <tr>
+          <th>NAME</th>
+          <th>PRICE</th>
+          <th>IN STOCK</th>
+        </tr>
+        <tr th:each="prod : ${prods}">
+          <td th:text="${prod.name}"></td>
+          <td th:text="${prod.price}"></td>
+          <td th:text="${prod.inStock}? 是 : 否"></td>
+          <td><button th:onclick="'getName(\''+${prod.name}+'\');'"></button></td>
+        </tr>
+      </table>
+    </div>
   <p>
     <a href="../home.html" th:href="@{/}">Return to home</a>
   </p>
+<script th:inline="javascript">
+  var pord_name = [[${pord_name}]];
+  console.log(pord_name);
+
+  function getName(prodName) {
+      alert("产品名称："+prodName);
+  }
+</script>
 </body>
 </html>

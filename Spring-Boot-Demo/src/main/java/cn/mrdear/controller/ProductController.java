@@ -25,6 +25,7 @@ public class ProductController {
     public String findAllProds(Model model) {
     	List<Product> prods = productMapper.findAllProds();
     	model.addAttribute("prods", prods);
+    	model.addAttribute("pord_name","产品名称");
         return "product";
     }
 
