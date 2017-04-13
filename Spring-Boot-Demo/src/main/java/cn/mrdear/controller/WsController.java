@@ -16,6 +16,6 @@ public class WsController {
     @SendTo("/topic/getResponse")
     public WiselyResponse say(WiselyMessage message) throws InterruptedException {
         Thread.sleep(3000);
-        return new WiselyResponse("Welconm, "+ message.getName() + "!");
+        return new WiselyResponse("Welcome, "+ message.getName() + "!");
     }
 }

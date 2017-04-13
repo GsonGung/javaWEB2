@@ -395,3 +395,1021 @@ java.net.SocketTimeoutException: connect timed out
 2017-03-31 23:49:28.046  INFO 10312 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
 2017-03-31 23:49:28.127  INFO 10312 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
 2017-03-31 23:49:28.132  INFO 10312 --- [main] cn.mrdear.Application                    : Started Application in 11.384 seconds (JVM running for 13.135)
+2017-04-13 21:25:27.496  INFO 900 --- [main] cn.mrdear.Application                    : Starting Application on ADMIN-PC with PID 900 (D:\IdeaProjects\javaWEB2\Spring-Boot-Demo\target\classes started by Administrator in D:\IdeaProjects\javaWEB2\Spring-Boot-Demo)
+2017-04-13 21:25:27.511 DEBUG 900 --- [main] cn.mrdear.Application                    : Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2017-04-13 21:25:27.511  INFO 900 --- [main] cn.mrdear.Application                    : No active profile set, falling back to default profiles: default
+2017-04-13 21:25:29.069  INFO 900 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564fabc8: startup date [Thu Apr 13 21:25:29 CST 2017]; root of context hierarchy
+2017-04-13 21:25:31.827  INFO 900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-04-13 21:25:32.795  INFO 900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:25:33.084  INFO 900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:25:33.348  INFO 900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:25:33.356  INFO 900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$b82c0564] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:25:33.415  INFO 900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:25:33.417  INFO 900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisConfig' of type [class cn.mrdear.conf.MybatisConfig$$EnhancerBySpringCGLIB$$2598b3c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:25:33.441  INFO 900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [class org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:25:33.442  INFO 900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d6386204] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:25:34.534  INFO 900 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-04-13 21:25:34.565  INFO 900 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-04-13 21:25:34.565  INFO 900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-04-13 21:25:34.738  INFO 900 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-04-13 21:25:34.738  INFO 900 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5681 ms
+2017-04-13 21:25:35.098  INFO 900 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-04-13 21:25:35.098  INFO 900 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-04-13 21:25:35.098  INFO 900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-04-13 21:25:35.098  INFO 900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-04-13 21:25:35.098  INFO 900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-04-13 21:25:35.098  INFO 900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-04-13 21:25:35.098  INFO 900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2017-04-13 21:25:35.098  INFO 900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'gzipFilter' to urls: [*.js, *.css, *.json, *.html]
+2017-04-13 21:25:35.098  INFO 900 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'simplePageCachingFilter' to urls: [/hello]
+2017-04-13 21:25:35.129 DEBUG 900 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.SimplePageCachingFilter
+2017-04-13 21:25:35.129 DEBUG 900 --- [localhost-startStop-1] n.s.e.c.w.f.SimplePageCachingFilter      : Using configured cacheName of hello.
+2017-04-13 21:25:35.145 DEBUG 900 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from ehcache.xml found in the classpath: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-04-13 21:25:35.145 DEBUG 900 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from URL: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-04-13 21:25:35.145 DEBUG 900 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from InputStream
+2017-04-13 21:25:35.176 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xmlns:xsi
+2017-04-13 21:25:35.176 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-04-13 21:25:35.176 DEBUG 900 --- [localhost-startStop-1] n.s.e.config.DiskStoreConfiguration      : Disk Store Path: E:\test
+2017-04-13 21:25:35.192 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Creating new CacheManager with default config
+2017-04-13 21:25:35.192 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.util.PropertyUtil         : propertiesString is null.
+2017-04-13 21:25:35.207 DEBUG 900 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheManagerEventListenerFactory class specified. Skipping...
+2017-04-13 21:25:35.223 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-04-13 21:25:35.223 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-04-13 21:25:35.239 DEBUG 900 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-04-13 21:25:35.239 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-04-13 21:25:35.239 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-04-13 21:25:35.239 DEBUG 900 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-04-13 21:25:35.254 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for hello
+2017-04-13 21:25:35.270 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Using diskstore path E:\test
+2017-04-13 21:25:35.270 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Holding exclusive lock on E:\test\.ehcache-diskstore.lock
+2017-04-13 21:25:35.270 DEBUG 900 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-04-13 21:25:35.285 DEBUG 900 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\hello.index
+2017-04-13 21:25:35.285 DEBUG 900 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-04-13 21:25:35.285 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : Initialised cache: hello
+2017-04-13 21:25:35.285 DEBUG 900 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured. Skipping for 'hello'.
+2017-04-13 21:25:35.285 DEBUG 900 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'hello'.
+2017-04-13 21:25:35.301 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:25:35.301 DEBUG 900 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:25:35.301 DEBUG 900 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.GzipFilter
+2017-04-13 21:25:35.775 DEBUG 900 --- [main] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:25:35.775 DEBUG 900 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.ProductMapper
+2017-04-13 21:25:35.775 DEBUG 900 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:25:35.775 DEBUG 900 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:25:35.775 DEBUG 900 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:25:35.775 DEBUG 900 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.ProductMapper
+2017-04-13 21:25:35.775 DEBUG 900 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.ProductMapper'.
+2017-04-13 21:25:35.854 DEBUG 900 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.UserMapper
+2017-04-13 21:25:35.854 DEBUG 900 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:25:35.854 DEBUG 900 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:25:35.854 DEBUG 900 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:25:35.854 DEBUG 900 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.UserMapper
+2017-04-13 21:25:35.854 DEBUG 900 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.UserMapper'.
+2017-04-13 21:25:35.949  INFO 900 --- [main] cn.mrdear.conf.RedisConfig               : JedisConnectionFactory bean init success.
+2017-04-13 21:25:36.410  INFO 900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientInboundChannelExecutor'
+2017-04-13 21:25:36.425  INFO 900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2017-04-13 21:25:36.441  INFO 900 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2017-04-13 21:25:36.503  INFO 900 --- [main] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/endpointWisely/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2017-04-13 21:25:36.535  INFO 900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
+2017-04-13 21:25:36.696  INFO 900 --- [main] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/welcome],messageType=[MESSAGE]}" onto public cn.mrdear.entity.WiselyResponse cn.mrdear.controller.WsController.say(cn.mrdear.entity.WiselyMessage) throws java.lang.InterruptedException
+2017-04-13 21:25:36.887  INFO 900 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564fabc8: startup date [Thu Apr 13 21:25:29 CST 2017]; root of context hierarchy
+2017-04-13 21:25:36.996  INFO 900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.HelloController.hello(org.springframework.ui.Model)
+2017-04-13 21:25:36.996  INFO 900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUserById/{id}],methods=[GET]}" onto public cn.mrdear.entity.User cn.mrdear.controller.HelloController.testUserDao1(int)
+2017-04-13 21:25:36.996  INFO 900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllUsers],methods=[GET]}" onto public java.util.List<cn.mrdear.entity.User> cn.mrdear.controller.HelloController.testUserDao2()
+2017-04-13 21:25:37.011  INFO 900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addUser],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao3(cn.mrdear.entity.User)
+2017-04-13 21:25:37.011  INFO 900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser/{id}],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao4(int)
+2017-04-13 21:25:37.011  INFO 900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllProds],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.ProductController.findAllProds(org.springframework.ui.Model)
+2017-04-13 21:25:37.011  INFO 900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-04-13 21:25:37.011  INFO 900 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-04-13 21:25:37.043  INFO 900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/ws] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-04-13 21:25:37.074  INFO 900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:25:37.074  INFO 900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:25:37.142  INFO 900 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:25:38.015  WARN 900 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-04-13 21:25:38.077  INFO 900 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-04-13 21:25:38.077  INFO 900 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-04-13 21:25:38.077  INFO 900 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2017-04-13 21:25:38.077  INFO 900 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-04-13 21:25:38.077  INFO 900 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2017-04-13 21:25:38.186  INFO 900 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-04-13 21:25:38.186  INFO 900 --- [main] cn.mrdear.Application                    : Started Application in 11.644 seconds (JVM running for 12.869)
+2017-04-13 21:26:36.552  INFO 900 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannelpool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2017-04-13 21:26:44.872  INFO 900 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-04-13 21:26:44.872  INFO 900 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-04-13 21:26:44.900  INFO 900 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2017-04-13 21:26:45.148 ERROR 900 --- [http-nio-8081-exec-1] o.thymeleaf.templateparser.ErrorHandler  : [THYMELEAF][http-nio-8081-exec-1] Fatal error during parsing
+
+org.xml.sax.SAXParseException: 元素内容必须由格式正确的字符数据或标记组成。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.startOfMarkup(XMLDocumentFragmentScannerImpl.java:2635) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2732) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327) [na:1.8.0_112]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) [thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) [thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1257) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.0.19.jar:1.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_112]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_112]
+
+2017-04-13 21:26:45.152 ERROR 900 --- [http-nio-8081-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8081-exec-1] Exception processing template "/ws": Exception parsing document: template="/ws", line 3 - column 6
+2017-04-13 21:26:45.161 ERROR 900 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="/ws", line 3 - column 6] with root cause
+
+org.xml.sax.SAXParseException: 元素内容必须由格式正确的字符数据或标记组成。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.startOfMarkup(XMLDocumentFragmentScannerImpl.java:2635) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2732) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327) ~[na:1.8.0_112]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) ~[thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1257) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) ~[druid-1.0.19.jar:1.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_112]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_112]
+
+2017-04-13 21:28:35.723 ERROR 900 --- [http-nio-8081-exec-2] o.thymeleaf.templateparser.ErrorHandler  : [THYMELEAF][http-nio-8081-exec-2] Fatal error during parsing
+
+org.xml.sax.SAXParseException: 元素内容必须由格式正确的字符数据或标记组成。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.startOfMarkup(XMLDocumentFragmentScannerImpl.java:2635) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2732) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327) [na:1.8.0_112]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) [thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) [thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1257) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.0.19.jar:1.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_112]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_112]
+
+2017-04-13 21:28:35.727 ERROR 900 --- [http-nio-8081-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8081-exec-2] Exception processing template "/ws": Exception parsing document: template="/ws", line 3 - column 6
+2017-04-13 21:28:35.729 ERROR 900 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="/ws", line 3 - column 6] with root cause
+
+org.xml.sax.SAXParseException: 元素内容必须由格式正确的字符数据或标记组成。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.startOfMarkup(XMLDocumentFragmentScannerImpl.java:2635) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2732) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327) ~[na:1.8.0_112]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) ~[thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1257) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) ~[druid-1.0.19.jar:1.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_112]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_112]
+
+2017-04-13 21:29:00.325  INFO 5708 --- [main] cn.mrdear.Application                    : Starting Application on ADMIN-PC with PID 5708 (D:\IdeaProjects\javaWEB2\Spring-Boot-Demo\target\classes started by Administrator in D:\IdeaProjects\javaWEB2\Spring-Boot-Demo)
+2017-04-13 21:29:00.325 DEBUG 5708 --- [main] cn.mrdear.Application                    : Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2017-04-13 21:29:00.325  INFO 5708 --- [main] cn.mrdear.Application                    : No active profile set, falling back to default profiles: default
+2017-04-13 21:29:00.951  INFO 5708 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564fabc8: startup date [Thu Apr 13 21:29:00 CST 2017]; root of context hierarchy
+2017-04-13 21:29:03.425  INFO 5708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-04-13 21:29:04.003  INFO 5708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:29:04.176  INFO 5708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:29:04.316  INFO 5708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:29:04.333  INFO 5708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3e2e3dd9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:29:04.364  INFO 5708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:29:04.364  INFO 5708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisConfig' of type [class cn.mrdear.conf.MybatisConfig$$EnhancerBySpringCGLIB$$ab9aec3d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:29:04.380  INFO 5708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [class org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:29:04.380  INFO 5708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5c3a9a79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:29:05.656  INFO 5708 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-04-13 21:29:05.677  INFO 5708 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-04-13 21:29:05.678  INFO 5708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-04-13 21:29:05.847  INFO 5708 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-04-13 21:29:05.848  INFO 5708 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4911 ms
+2017-04-13 21:29:06.168  INFO 5708 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-04-13 21:29:06.170  INFO 5708 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-04-13 21:29:06.176  INFO 5708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-04-13 21:29:06.176  INFO 5708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-04-13 21:29:06.177  INFO 5708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-04-13 21:29:06.177  INFO 5708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-04-13 21:29:06.177  INFO 5708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2017-04-13 21:29:06.177  INFO 5708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'gzipFilter' to urls: [*.js, *.css, *.json, *.html]
+2017-04-13 21:29:06.177  INFO 5708 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'simplePageCachingFilter' to urls: [/hello]
+2017-04-13 21:29:06.221 DEBUG 5708 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.SimplePageCachingFilter
+2017-04-13 21:29:06.222 DEBUG 5708 --- [localhost-startStop-1] n.s.e.c.w.f.SimplePageCachingFilter      : Using configured cacheName of hello.
+2017-04-13 21:29:06.242 DEBUG 5708 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from ehcache.xml found in the classpath: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-04-13 21:29:06.242 DEBUG 5708 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from URL: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-04-13 21:29:06.242 DEBUG 5708 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from InputStream
+2017-04-13 21:29:06.265 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xmlns:xsi
+2017-04-13 21:29:06.265 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-04-13 21:29:06.268 DEBUG 5708 --- [localhost-startStop-1] n.s.e.config.DiskStoreConfiguration      : Disk Store Path: E:\test
+2017-04-13 21:29:06.289 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Creating new CacheManager with default config
+2017-04-13 21:29:06.294 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.util.PropertyUtil         : propertiesString is null.
+2017-04-13 21:29:06.312 DEBUG 5708 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheManagerEventListenerFactory class specified. Skipping...
+2017-04-13 21:29:06.332 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-04-13 21:29:06.332 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-04-13 21:29:06.335 DEBUG 5708 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-04-13 21:29:06.341 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-04-13 21:29:06.342 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-04-13 21:29:06.342 DEBUG 5708 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-04-13 21:29:06.364 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for hello
+2017-04-13 21:29:06.375 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Using diskstore path E:\test
+2017-04-13 21:29:06.375 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Holding exclusive lock on E:\test\.ehcache-diskstore.lock
+2017-04-13 21:29:06.376 DEBUG 5708 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-04-13 21:29:06.386 DEBUG 5708 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\hello.index
+2017-04-13 21:29:06.386 DEBUG 5708 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-04-13 21:29:06.398 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : Initialised cache: hello
+2017-04-13 21:29:06.399 DEBUG 5708 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured. Skipping for 'hello'.
+2017-04-13 21:29:06.399 DEBUG 5708 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'hello'.
+2017-04-13 21:29:06.407 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:29:06.408 DEBUG 5708 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:29:06.409 DEBUG 5708 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.GzipFilter
+2017-04-13 21:29:06.896 DEBUG 5708 --- [main] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:29:06.896 DEBUG 5708 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.ProductMapper
+2017-04-13 21:29:06.896 DEBUG 5708 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:29:06.896 DEBUG 5708 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:29:06.896 DEBUG 5708 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:29:06.896 DEBUG 5708 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.ProductMapper
+2017-04-13 21:29:06.896 DEBUG 5708 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.ProductMapper'.
+2017-04-13 21:29:06.974 DEBUG 5708 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.UserMapper
+2017-04-13 21:29:06.974 DEBUG 5708 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:29:06.974 DEBUG 5708 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:29:06.974 DEBUG 5708 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:29:06.974 DEBUG 5708 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.UserMapper
+2017-04-13 21:29:06.974 DEBUG 5708 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.UserMapper'.
+2017-04-13 21:29:07.067  INFO 5708 --- [main] cn.mrdear.conf.RedisConfig               : JedisConnectionFactory bean init success.
+2017-04-13 21:29:07.475  INFO 5708 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientInboundChannelExecutor'
+2017-04-13 21:29:07.475  INFO 5708 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2017-04-13 21:29:07.506  INFO 5708 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2017-04-13 21:29:07.568  INFO 5708 --- [main] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/endpointWisely/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2017-04-13 21:29:07.584  INFO 5708 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
+2017-04-13 21:29:07.709  INFO 5708 --- [main] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/welcome],messageType=[MESSAGE]}" onto public cn.mrdear.entity.WiselyResponse cn.mrdear.controller.WsController.say(cn.mrdear.entity.WiselyMessage) throws java.lang.InterruptedException
+2017-04-13 21:29:07.913  INFO 5708 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564fabc8: startup date [Thu Apr 13 21:29:00 CST 2017]; root of context hierarchy
+2017-04-13 21:29:08.006  INFO 5708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.HelloController.hello(org.springframework.ui.Model)
+2017-04-13 21:29:08.006  INFO 5708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUserById/{id}],methods=[GET]}" onto public cn.mrdear.entity.User cn.mrdear.controller.HelloController.testUserDao1(int)
+2017-04-13 21:29:08.006  INFO 5708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllUsers],methods=[GET]}" onto public java.util.List<cn.mrdear.entity.User> cn.mrdear.controller.HelloController.testUserDao2()
+2017-04-13 21:29:08.006  INFO 5708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addUser],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao3(cn.mrdear.entity.User)
+2017-04-13 21:29:08.006  INFO 5708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser/{id}],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao4(int)
+2017-04-13 21:29:08.006  INFO 5708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllProds],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.ProductController.findAllProds(org.springframework.ui.Model)
+2017-04-13 21:29:08.006  INFO 5708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-04-13 21:29:08.006  INFO 5708 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-04-13 21:29:08.022  INFO 5708 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/ws] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-04-13 21:29:08.037  INFO 5708 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:29:08.037  INFO 5708 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:29:08.101  INFO 5708 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:29:08.932  WARN 5708 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-04-13 21:29:09.010  INFO 5708 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-04-13 21:29:09.010  INFO 5708 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-04-13 21:29:09.025  INFO 5708 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2017-04-13 21:29:09.025  INFO 5708 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-04-13 21:29:09.025  INFO 5708 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2017-04-13 21:29:09.103  INFO 5708 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-04-13 21:29:09.119  INFO 5708 --- [main] cn.mrdear.Application                    : Started Application in 9.42 seconds (JVM running for 10.36)
+2017-04-13 21:29:10.385 DEBUG 5708 --- [net.sf.ehcache.CacheManager@3f0719b8] net.sf.ehcache.util.UpdateChecker        : Update check failed: 
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.8.0_112]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.8.0_112]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_112]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_112]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_112]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.8.0_112]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_112]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_112]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.8.0_112]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.8.0_112]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.8.0_112]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.8.0_112]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.8.0_112]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202) ~[na:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138) ~[na:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032) ~[na:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966) ~[na:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546) ~[na:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474) ~[na:1.8.0_112]
+	at net.sf.ehcache.util.UpdateChecker.getUpdateProperties(UpdateChecker.java:108) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.doCheck(UpdateChecker.java:72) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.checkForUpdate(UpdateChecker.java:60) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.run(UpdateChecker.java:51) [ehcache-core-2.6.8.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_112]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_112]
+
+2017-04-13 21:29:39.459  INFO 5708 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-04-13 21:29:39.459  INFO 5708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-04-13 21:29:39.482  INFO 5708 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2017-04-13 21:29:39.652 ERROR 5708 --- [http-nio-8081-exec-1] o.thymeleaf.templateparser.ErrorHandler  : [THYMELEAF][http-nio-8081-exec-1] Fatal error during parsing
+
+org.xml.sax.SAXParseException: 元素类型 "html" 必须由匹配的结束标记 "</html>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) [na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327) [na:1.8.0_112]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) [thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) [thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) [thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1257) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.0.19.jar:1.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_112]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_112]
+
+2017-04-13 21:29:39.656 ERROR 5708 --- [http-nio-8081-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8081-exec-1] Exception processing template "/ws": Exception parsing document: template="/ws", line 5 - column 7
+2017-04-13 21:29:39.662 ERROR 5708 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Exception parsing document: template="/ws", line 5 - column 7] with root cause
+
+org.xml.sax.SAXParseException: 元素类型 "html" 必须由匹配的结束标记 "</html>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643) ~[na:1.8.0_112]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327) ~[na:1.8.0_112]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.doParse(AbstractNonValidatingSAXTemplateParser.java:209) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplateUsingPool(AbstractNonValidatingSAXTemplateParser.java:134) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.templateparser.xmlsax.AbstractNonValidatingSAXTemplateParser.parseTemplate(AbstractNonValidatingSAXTemplateParser.java:116) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:278) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) ~[thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1257) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) ~[druid-1.0.19.jar:1.0.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.3.RELEASE.jar:4.3.3.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_112]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.5.jar:8.5.5]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_112]
+
+2017-04-13 21:30:07.595  INFO 5708 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannelpool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2017-04-13 21:31:54.733  INFO 6580 --- [main] cn.mrdear.Application                    : Starting Application on ADMIN-PC with PID 6580 (D:\IdeaProjects\javaWEB2\Spring-Boot-Demo\target\classes started by Administrator in D:\IdeaProjects\javaWEB2\Spring-Boot-Demo)
+2017-04-13 21:31:54.733 DEBUG 6580 --- [main] cn.mrdear.Application                    : Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2017-04-13 21:31:54.733  INFO 6580 --- [main] cn.mrdear.Application                    : No active profile set, falling back to default profiles: default
+2017-04-13 21:31:55.279  INFO 6580 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564fabc8: startup date [Thu Apr 13 21:31:55 CST 2017]; root of context hierarchy
+2017-04-13 21:31:57.843  INFO 6580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-04-13 21:31:58.358  INFO 6580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:31:58.545  INFO 6580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:31:58.686  INFO 6580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:31:58.701  INFO 6580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$31b4518d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:31:58.732  INFO 6580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:31:58.732  INFO 6580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisConfig' of type [class cn.mrdear.conf.MybatisConfig$$EnhancerBySpringCGLIB$$9f20fff1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:31:58.748  INFO 6580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [class org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:31:58.748  INFO 6580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4fc0ae2d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:31:59.827  INFO 6580 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-04-13 21:31:59.846  INFO 6580 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-04-13 21:31:59.848  INFO 6580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-04-13 21:31:59.976  INFO 6580 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-04-13 21:31:59.976  INFO 6580 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4697 ms
+2017-04-13 21:32:00.257  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-04-13 21:32:00.257  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-04-13 21:32:00.272  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-04-13 21:32:00.272  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-04-13 21:32:00.272  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-04-13 21:32:00.272  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-04-13 21:32:00.272  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2017-04-13 21:32:00.272  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'gzipFilter' to urls: [*.js, *.css, *.json, *.html]
+2017-04-13 21:32:00.272  INFO 6580 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'simplePageCachingFilter' to urls: [/hello]
+2017-04-13 21:32:00.303 DEBUG 6580 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.SimplePageCachingFilter
+2017-04-13 21:32:00.303 DEBUG 6580 --- [localhost-startStop-1] n.s.e.c.w.f.SimplePageCachingFilter      : Using configured cacheName of hello.
+2017-04-13 21:32:00.303 DEBUG 6580 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from ehcache.xml found in the classpath: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-04-13 21:32:00.303 DEBUG 6580 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from URL: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-04-13 21:32:00.303 DEBUG 6580 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from InputStream
+2017-04-13 21:32:00.337 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xmlns:xsi
+2017-04-13 21:32:00.337 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-04-13 21:32:00.338 DEBUG 6580 --- [localhost-startStop-1] n.s.e.config.DiskStoreConfiguration      : Disk Store Path: E:\test
+2017-04-13 21:32:00.339 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Creating new CacheManager with default config
+2017-04-13 21:32:00.354 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.util.PropertyUtil         : propertiesString is null.
+2017-04-13 21:32:00.354 DEBUG 6580 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheManagerEventListenerFactory class specified. Skipping...
+2017-04-13 21:32:00.370 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-04-13 21:32:00.370 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-04-13 21:32:00.370 DEBUG 6580 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-04-13 21:32:00.385 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-04-13 21:32:00.385 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-04-13 21:32:00.385 DEBUG 6580 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-04-13 21:32:00.401 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for hello
+2017-04-13 21:32:00.401 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Using diskstore path E:\test
+2017-04-13 21:32:00.401 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Holding exclusive lock on E:\test\.ehcache-diskstore.lock
+2017-04-13 21:32:00.401 DEBUG 6580 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-04-13 21:32:00.417 DEBUG 6580 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\hello.index
+2017-04-13 21:32:00.417 DEBUG 6580 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-04-13 21:32:00.417 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : Initialised cache: hello
+2017-04-13 21:32:00.417 DEBUG 6580 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured. Skipping for 'hello'.
+2017-04-13 21:32:00.417 DEBUG 6580 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'hello'.
+2017-04-13 21:32:00.417 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:32:00.417 DEBUG 6580 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:32:00.417 DEBUG 6580 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.GzipFilter
+2017-04-13 21:32:00.744 DEBUG 6580 --- [main] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:32:00.744 DEBUG 6580 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.ProductMapper
+2017-04-13 21:32:00.760 DEBUG 6580 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:32:00.760 DEBUG 6580 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:32:00.760 DEBUG 6580 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:32:00.760 DEBUG 6580 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.ProductMapper
+2017-04-13 21:32:00.760 DEBUG 6580 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.ProductMapper'.
+2017-04-13 21:32:00.822 DEBUG 6580 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.UserMapper
+2017-04-13 21:32:00.822 DEBUG 6580 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:32:00.838 DEBUG 6580 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:32:00.838 DEBUG 6580 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:32:00.838 DEBUG 6580 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.UserMapper
+2017-04-13 21:32:00.838 DEBUG 6580 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.UserMapper'.
+2017-04-13 21:32:00.931  INFO 6580 --- [main] cn.mrdear.conf.RedisConfig               : JedisConnectionFactory bean init success.
+2017-04-13 21:32:01.260  INFO 6580 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientInboundChannelExecutor'
+2017-04-13 21:32:01.276  INFO 6580 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2017-04-13 21:32:01.291  INFO 6580 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2017-04-13 21:32:01.339  INFO 6580 --- [main] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/endpointWisely/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2017-04-13 21:32:01.433  INFO 6580 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
+2017-04-13 21:32:01.557  INFO 6580 --- [main] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/welcome],messageType=[MESSAGE]}" onto public cn.mrdear.entity.WiselyResponse cn.mrdear.controller.WsController.say(cn.mrdear.entity.WiselyMessage) throws java.lang.InterruptedException
+2017-04-13 21:32:01.698  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564fabc8: startup date [Thu Apr 13 21:31:55 CST 2017]; root of context hierarchy
+2017-04-13 21:32:01.760  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.HelloController.hello(org.springframework.ui.Model)
+2017-04-13 21:32:01.760  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUserById/{id}],methods=[GET]}" onto public cn.mrdear.entity.User cn.mrdear.controller.HelloController.testUserDao1(int)
+2017-04-13 21:32:01.760  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllUsers],methods=[GET]}" onto public java.util.List<cn.mrdear.entity.User> cn.mrdear.controller.HelloController.testUserDao2()
+2017-04-13 21:32:01.760  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addUser],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao3(cn.mrdear.entity.User)
+2017-04-13 21:32:01.760  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser/{id}],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao4(int)
+2017-04-13 21:32:01.760  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllProds],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.ProductController.findAllProds(org.springframework.ui.Model)
+2017-04-13 21:32:01.760  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-04-13 21:32:01.760  INFO 6580 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-04-13 21:32:01.776  INFO 6580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/ws] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-04-13 21:32:01.791  INFO 6580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:32:01.791  INFO 6580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:32:01.861  INFO 6580 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:32:02.580  WARN 6580 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-04-13 21:32:02.658  INFO 6580 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-04-13 21:32:02.658  INFO 6580 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-04-13 21:32:02.658  INFO 6580 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2017-04-13 21:32:02.658  INFO 6580 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-04-13 21:32:02.658  INFO 6580 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2017-04-13 21:32:02.736  INFO 6580 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-04-13 21:32:02.736  INFO 6580 --- [main] cn.mrdear.Application                    : Started Application in 8.582 seconds (JVM running for 9.478)
+2017-04-13 21:32:21.094  INFO 6580 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-04-13 21:32:21.094  INFO 6580 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-04-13 21:32:21.115  INFO 6580 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2017-04-13 21:32:21.422 DEBUG 6580 --- [http-nio-8081-exec-3] n.s.e.constructs.web.filter.Filter       : Request Headers: host -> localhost:8081: connection -> keep-alive: accept -> */*: user-agent -> Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.5.0.15179: referer -> http://localhost:8081/ws: accept-encoding -> gzip, deflate: accept-language -> zh-CN,zh;q=0.8
+2017-04-13 21:32:21.422 DEBUG 6580 --- [http-nio-8081-exec-3] n.s.e.constructs.web.filter.GzipFilter   : http://localhost:8081/jquery.js. Writing with gzip compression
+2017-04-13 21:32:21.426 DEBUG 6580 --- [http-nio-8081-exec-2] n.s.e.constructs.web.filter.Filter       : Request Headers: host -> localhost:8081: connection -> keep-alive: accept -> */*: user-agent -> Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.5.0.15179: referer -> http://localhost:8081/ws: accept-encoding -> gzip, deflate: accept-language -> zh-CN,zh;q=0.8
+2017-04-13 21:32:21.426 DEBUG 6580 --- [http-nio-8081-exec-2] n.s.e.constructs.web.filter.GzipFilter   : http://localhost:8081/sockjs.min.js. Writing with gzip compression
+2017-04-13 21:32:21.432 DEBUG 6580 --- [http-nio-8081-exec-4] n.s.e.constructs.web.filter.Filter       : Request Headers: host -> localhost:8081: connection -> keep-alive: accept -> */*: user-agent -> Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.5.0.15179: referer -> http://localhost:8081/ws: accept-encoding -> gzip, deflate: accept-language -> zh-CN,zh;q=0.8
+2017-04-13 21:32:21.432 DEBUG 6580 --- [http-nio-8081-exec-4] n.s.e.constructs.web.filter.GzipFilter   : http://localhost:8081/stomp.min.js. Writing with gzip compression
+2017-04-13 21:33:01.361  INFO 6580 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannelpool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2017-04-13 21:44:11.616  INFO 5284 --- [main] cn.mrdear.Application                    : Starting Application on ADMIN-PC with PID 5284 (D:\IdeaProjects\javaWEB2\Spring-Boot-Demo\target\classes started by Administrator in D:\IdeaProjects\javaWEB2\Spring-Boot-Demo)
+2017-04-13 21:44:11.628 DEBUG 5284 --- [main] cn.mrdear.Application                    : Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2017-04-13 21:44:11.637  INFO 5284 --- [main] cn.mrdear.Application                    : No active profile set, falling back to default profiles: default
+2017-04-13 21:44:12.501  INFO 5284 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564fabc8: startup date [Thu Apr 13 21:44:12 CST 2017]; root of context hierarchy
+2017-04-13 21:44:14.823  INFO 5284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-04-13 21:44:16.214  INFO 5284 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:44:16.473  INFO 5284 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:44:16.685  INFO 5284 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:44:16.695  INFO 5284 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$b82c0564] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:44:16.736  INFO 5284 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:44:16.739  INFO 5284 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisConfig' of type [class cn.mrdear.conf.MybatisConfig$$EnhancerBySpringCGLIB$$2598b3c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:44:16.763  INFO 5284 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [class org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:44:16.764  INFO 5284 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d6386204] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:44:18.071  INFO 5284 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-04-13 21:44:18.095  INFO 5284 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-04-13 21:44:18.097  INFO 5284 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-04-13 21:44:18.281  INFO 5284 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-04-13 21:44:18.281  INFO 5284 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5785 ms
+2017-04-13 21:44:18.709  INFO 5284 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-04-13 21:44:18.712  INFO 5284 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-04-13 21:44:18.720  INFO 5284 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-04-13 21:44:18.721  INFO 5284 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-04-13 21:44:18.721  INFO 5284 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-04-13 21:44:18.721  INFO 5284 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-04-13 21:44:18.723  INFO 5284 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2017-04-13 21:44:18.723  INFO 5284 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'gzipFilter' to urls: [*.js, *.css, *.json, *.html]
+2017-04-13 21:44:18.723  INFO 5284 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'simplePageCachingFilter' to urls: [/hello]
+2017-04-13 21:44:18.760 DEBUG 5284 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.SimplePageCachingFilter
+2017-04-13 21:44:18.761 DEBUG 5284 --- [localhost-startStop-1] n.s.e.c.w.f.SimplePageCachingFilter      : Using configured cacheName of hello.
+2017-04-13 21:44:18.773 DEBUG 5284 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from ehcache.xml found in the classpath: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-04-13 21:44:18.773 DEBUG 5284 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from URL: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-04-13 21:44:18.774 DEBUG 5284 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from InputStream
+2017-04-13 21:44:18.792 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xmlns:xsi
+2017-04-13 21:44:18.792 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-04-13 21:44:18.794 DEBUG 5284 --- [localhost-startStop-1] n.s.e.config.DiskStoreConfiguration      : Disk Store Path: E:\test
+2017-04-13 21:44:18.818 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Creating new CacheManager with default config
+2017-04-13 21:44:18.826 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.util.PropertyUtil         : propertiesString is null.
+2017-04-13 21:44:18.840 DEBUG 5284 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheManagerEventListenerFactory class specified. Skipping...
+2017-04-13 21:44:18.859 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-04-13 21:44:18.860 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-04-13 21:44:18.861 DEBUG 5284 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-04-13 21:44:18.867 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-04-13 21:44:18.867 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-04-13 21:44:18.867 DEBUG 5284 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-04-13 21:44:18.887 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for hello
+2017-04-13 21:44:18.896 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Using diskstore path E:\test
+2017-04-13 21:44:18.896 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Holding exclusive lock on E:\test\.ehcache-diskstore.lock
+2017-04-13 21:44:18.898 DEBUG 5284 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-04-13 21:44:18.907 DEBUG 5284 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\hello.index
+2017-04-13 21:44:18.908 DEBUG 5284 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-04-13 21:44:18.919 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : Initialised cache: hello
+2017-04-13 21:44:18.919 DEBUG 5284 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured. Skipping for 'hello'.
+2017-04-13 21:44:18.919 DEBUG 5284 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'hello'.
+2017-04-13 21:44:18.929 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:44:18.929 DEBUG 5284 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:44:18.931 DEBUG 5284 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.GzipFilter
+2017-04-13 21:44:19.595 DEBUG 5284 --- [main] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:44:19.598 DEBUG 5284 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.ProductMapper
+2017-04-13 21:44:19.600 DEBUG 5284 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:44:19.601 DEBUG 5284 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:44:19.602 DEBUG 5284 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:44:19.602 DEBUG 5284 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.ProductMapper
+2017-04-13 21:44:19.602 DEBUG 5284 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.ProductMapper'.
+2017-04-13 21:44:19.679 DEBUG 5284 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.UserMapper
+2017-04-13 21:44:19.681 DEBUG 5284 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:44:19.683 DEBUG 5284 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:44:19.683 DEBUG 5284 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:44:19.683 DEBUG 5284 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.UserMapper
+2017-04-13 21:44:19.684 DEBUG 5284 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.UserMapper'.
+2017-04-13 21:44:19.805  INFO 5284 --- [main] cn.mrdear.conf.RedisConfig               : JedisConnectionFactory bean init success.
+2017-04-13 21:44:20.624  INFO 5284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientInboundChannelExecutor'
+2017-04-13 21:44:20.644  INFO 5284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2017-04-13 21:44:20.681  INFO 5284 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2017-04-13 21:44:20.764  INFO 5284 --- [main] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/endpointWisely/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2017-04-13 21:44:20.781  INFO 5284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
+2017-04-13 21:44:20.948  INFO 5284 --- [main] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/welcome],messageType=[MESSAGE]}" onto public cn.mrdear.entity.WiselyResponse cn.mrdear.controller.WsController.say(cn.mrdear.entity.WiselyMessage) throws java.lang.InterruptedException
+2017-04-13 21:44:21.157  INFO 5284 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564fabc8: startup date [Thu Apr 13 21:44:12 CST 2017]; root of context hierarchy
+2017-04-13 21:44:21.268  INFO 5284 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.HelloController.hello(org.springframework.ui.Model)
+2017-04-13 21:44:21.270  INFO 5284 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUserById/{id}],methods=[GET]}" onto public cn.mrdear.entity.User cn.mrdear.controller.HelloController.testUserDao1(int)
+2017-04-13 21:44:21.271  INFO 5284 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllUsers],methods=[GET]}" onto public java.util.List<cn.mrdear.entity.User> cn.mrdear.controller.HelloController.testUserDao2()
+2017-04-13 21:44:21.271  INFO 5284 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addUser],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao3(cn.mrdear.entity.User)
+2017-04-13 21:44:21.271  INFO 5284 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser/{id}],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao4(int)
+2017-04-13 21:44:21.272  INFO 5284 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllProds],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.ProductController.findAllProds(org.springframework.ui.Model)
+2017-04-13 21:44:21.275  INFO 5284 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-04-13 21:44:21.275  INFO 5284 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-04-13 21:44:21.300  INFO 5284 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/ws] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-04-13 21:44:21.322  INFO 5284 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:44:21.322  INFO 5284 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:44:21.382  INFO 5284 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:44:22.370  WARN 5284 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-04-13 21:44:22.490  INFO 5284 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-04-13 21:44:22.504  INFO 5284 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-04-13 21:44:22.505  INFO 5284 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2017-04-13 21:44:22.505  INFO 5284 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-04-13 21:44:22.506  INFO 5284 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2017-04-13 21:44:22.613  INFO 5284 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-04-13 21:44:22.620  INFO 5284 --- [main] cn.mrdear.Application                    : Started Application in 11.963 seconds (JVM running for 12.842)
+2017-04-13 21:44:29.899  INFO 5284 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-04-13 21:44:29.899  INFO 5284 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-04-13 21:44:29.928  INFO 5284 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2017-04-13 21:44:30.399 DEBUG 5284 --- [http-nio-8081-exec-3] n.s.e.constructs.web.filter.Filter       : Request Headers: host -> localhost:8081: connection -> keep-alive: accept -> */*: user-agent -> Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.5.0.15179: referer -> http://localhost:8081/ws: accept-encoding -> gzip, deflate: accept-language -> zh-CN,zh;q=0.8
+2017-04-13 21:44:30.399 DEBUG 5284 --- [http-nio-8081-exec-3] n.s.e.constructs.web.filter.GzipFilter   : http://localhost:8081/stomp.min.js. Writing with gzip compression
+2017-04-13 21:44:30.409 DEBUG 5284 --- [http-nio-8081-exec-2] n.s.e.constructs.web.filter.Filter       : Request Headers: host -> localhost:8081: connection -> keep-alive: accept -> */*: user-agent -> Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.5.0.15179: referer -> http://localhost:8081/ws: accept-encoding -> gzip, deflate: accept-language -> zh-CN,zh;q=0.8
+2017-04-13 21:44:30.409 DEBUG 5284 --- [http-nio-8081-exec-2] n.s.e.constructs.web.filter.GzipFilter   : http://localhost:8081/sockjs.min.js. Writing with gzip compression
+2017-04-13 21:44:30.429 DEBUG 5284 --- [http-nio-8081-exec-4] n.s.e.constructs.web.filter.Filter       : Request Headers: host -> localhost:8081: connection -> keep-alive: accept -> */*: user-agent -> Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.5.0.15179: referer -> http://localhost:8081/ws: accept-encoding -> gzip, deflate: accept-language -> zh-CN,zh;q=0.8
+2017-04-13 21:44:30.429 DEBUG 5284 --- [http-nio-8081-exec-4] n.s.e.constructs.web.filter.GzipFilter   : http://localhost:8081/jquery.js. Writing with gzip compression
+2017-04-13 21:45:20.793  INFO 5284 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannelpool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2017-04-13 21:46:38.887  INFO 3632 --- [main] cn.mrdear.Application                    : Starting Application on ADMIN-PC with PID 3632 (D:\IdeaProjects\javaWEB2\Spring-Boot-Demo\target\classes started by Administrator in D:\IdeaProjects\javaWEB2\Spring-Boot-Demo)
+2017-04-13 21:46:38.887 DEBUG 3632 --- [main] cn.mrdear.Application                    : Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+2017-04-13 21:46:38.887  INFO 3632 --- [main] cn.mrdear.Application                    : No active profile set, falling back to default profiles: default
+2017-04-13 21:46:39.684  INFO 3632 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564fabc8: startup date [Thu Apr 13 21:46:39 CST 2017]; root of context hierarchy
+2017-04-13 21:46:41.845  INFO 3632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-04-13 21:46:42.362  INFO 3632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:46:42.549  INFO 3632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:46:42.689  INFO 3632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:46:42.689  INFO 3632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$58c9cf1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:46:42.736  INFO 3632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSourceInitializer' of type [class org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:46:42.736  INFO 3632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisConfig' of type [class cn.mrdear.conf.MybatisConfig$$EnhancerBySpringCGLIB$$c6367d83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:46:42.767  INFO 3632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionManager' of type [class org.springframework.jdbc.datasource.DataSourceTransactionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:46:42.767  INFO 3632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$76d62bbf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-13 21:46:43.865  INFO 3632 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2017-04-13 21:46:43.881  INFO 3632 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-04-13 21:46:43.881  INFO 3632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2017-04-13 21:46:44.099  INFO 3632 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-04-13 21:46:44.099  INFO 3632 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4415 ms
+2017-04-13 21:46:44.397  INFO 3632 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-04-13 21:46:44.397  INFO 3632 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-04-13 21:46:44.397  INFO 3632 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-04-13 21:46:44.397  INFO 3632 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-04-13 21:46:44.397  INFO 3632 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-04-13 21:46:44.397  INFO 3632 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-04-13 21:46:44.397  INFO 3632 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webStatFilter' to urls: [/*]
+2017-04-13 21:46:44.397  INFO 3632 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'gzipFilter' to urls: [*.js, *.css, *.json, *.html]
+2017-04-13 21:46:44.397  INFO 3632 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'simplePageCachingFilter' to urls: [/hello]
+2017-04-13 21:46:44.444 DEBUG 3632 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.SimplePageCachingFilter
+2017-04-13 21:46:44.444 DEBUG 3632 --- [localhost-startStop-1] n.s.e.c.w.f.SimplePageCachingFilter      : Using configured cacheName of hello.
+2017-04-13 21:46:44.459 DEBUG 3632 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from ehcache.xml found in the classpath: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-04-13 21:46:44.459 DEBUG 3632 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from URL: file:/D:/IdeaProjects/javaWEB2/Spring-Boot-Demo/target/classes/ehcache.xml
+2017-04-13 21:46:44.459 DEBUG 3632 --- [localhost-startStop-1] n.s.ehcache.config.ConfigurationFactory  : Configuring ehcache from InputStream
+2017-04-13 21:46:44.475 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xmlns:xsi
+2017-04-13 21:46:44.475 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.config.BeanHandler        : Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2017-04-13 21:46:44.475 DEBUG 3632 --- [localhost-startStop-1] n.s.e.config.DiskStoreConfiguration      : Disk Store Path: E:\test
+2017-04-13 21:46:44.490 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Creating new CacheManager with default config
+2017-04-13 21:46:44.506 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.util.PropertyUtil         : propertiesString is null.
+2017-04-13 21:46:44.522 DEBUG 3632 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheManagerEventListenerFactory class specified. Skipping...
+2017-04-13 21:46:44.537 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-04-13 21:46:44.537 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-04-13 21:46:44.537 DEBUG 3632 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-04-13 21:46:44.553 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-04-13 21:46:44.553 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : CacheWriter factory not configured. Skipping...
+2017-04-13 21:46:44.553 DEBUG 3632 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : No CacheExceptionHandlerFactory class specified. Skipping...
+2017-04-13 21:46:44.568 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for hello
+2017-04-13 21:46:44.584 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Using diskstore path E:\test
+2017-04-13 21:46:44.584 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.DiskStorePathManager      : Holding exclusive lock on E:\test\.ehcache-diskstore.lock
+2017-04-13 21:46:44.584 DEBUG 3632 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-04-13 21:46:44.600 DEBUG 3632 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\hello.index
+2017-04-13 21:46:44.600 DEBUG 3632 --- [localhost-startStop-1] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file hello.index
+2017-04-13 21:46:44.600 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.Cache                     : Initialised cache: hello
+2017-04-13 21:46:44.600 DEBUG 3632 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured. Skipping for 'hello'.
+2017-04-13 21:46:44.600 DEBUG 3632 --- [localhost-startStop-1] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'hello'.
+2017-04-13 21:46:44.615 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:46:44.615 DEBUG 3632 --- [localhost-startStop-1] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:46:44.615 DEBUG 3632 --- [localhost-startStop-1] n.s.e.constructs.web.filter.Filter       : Suppression of stack traces enabled for net.sf.ehcache.constructs.web.filter.GzipFilter
+2017-04-13 21:46:45.021 DEBUG 3632 --- [main] net.sf.ehcache.CacheManager              : Attempting to create an existing singleton. Existing singleton returned.
+2017-04-13 21:46:45.021 DEBUG 3632 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.ProductMapper
+2017-04-13 21:46:45.021 DEBUG 3632 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:46:45.021 DEBUG 3632 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:46:45.021 DEBUG 3632 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0050roduct%004dapper.index
+2017-04-13 21:46:45.021 DEBUG 3632 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.ProductMapper
+2017-04-13 21:46:45.021 DEBUG 3632 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.ProductMapper'.
+2017-04-13 21:46:45.100 DEBUG 3632 --- [main] net.sf.ehcache.store.MemoryStore         : Initialized net.sf.ehcache.store.MemoryStore for cn.mrdear.mapper.UserMapper
+2017-04-13 21:46:45.100 DEBUG 3632 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:46:45.100 DEBUG 3632 --- [main] n.s.e.store.disk.DiskStorageFactory      : Matching data file missing (or empty) for index file. Deleting index file E:\test\cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:46:45.100 DEBUG 3632 --- [main] n.s.e.store.disk.DiskStorageFactory      : Failed to delete file cn%002emrdear%002emapper%002e%0055ser%004dapper.index
+2017-04-13 21:46:45.100 DEBUG 3632 --- [main] net.sf.ehcache.Cache                     : Initialised cache: cn.mrdear.mapper.UserMapper
+2017-04-13 21:46:45.100 DEBUG 3632 --- [main] n.sf.ehcache.config.ConfigurationHelper  : CacheDecoratorFactory not configured for defaultCache. Skipping for 'cn.mrdear.mapper.UserMapper'.
+2017-04-13 21:46:45.193  INFO 3632 --- [main] cn.mrdear.conf.RedisConfig               : JedisConnectionFactory bean init success.
+2017-04-13 21:46:45.538  INFO 3632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientInboundChannelExecutor'
+2017-04-13 21:46:45.553  INFO 3632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2017-04-13 21:46:45.569  INFO 3632 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2017-04-13 21:46:45.647  INFO 3632 --- [main] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/endpointWisely/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2017-04-13 21:46:45.662  INFO 3632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'brokerChannelExecutor'
+2017-04-13 21:46:45.762  INFO 3632 --- [main] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/welcome],messageType=[MESSAGE]}" onto public cn.mrdear.entity.WiselyResponse cn.mrdear.controller.WsController.say(cn.mrdear.entity.WiselyMessage) throws java.lang.InterruptedException
+2017-04-13 21:46:45.996  INFO 3632 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@564fabc8: startup date [Thu Apr 13 21:46:39 CST 2017]; root of context hierarchy
+2017-04-13 21:46:46.091  INFO 3632 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.HelloController.hello(org.springframework.ui.Model)
+2017-04-13 21:46:46.091  INFO 3632 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findUserById/{id}],methods=[GET]}" onto public cn.mrdear.entity.User cn.mrdear.controller.HelloController.testUserDao1(int)
+2017-04-13 21:46:46.091  INFO 3632 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllUsers],methods=[GET]}" onto public java.util.List<cn.mrdear.entity.User> cn.mrdear.controller.HelloController.testUserDao2()
+2017-04-13 21:46:46.091  INFO 3632 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addUser],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao3(cn.mrdear.entity.User)
+2017-04-13 21:46:46.091  INFO 3632 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteUser/{id}],methods=[GET]}" onto public int cn.mrdear.controller.HelloController.testUserDao4(int)
+2017-04-13 21:46:46.091  INFO 3632 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/findAllProds],methods=[GET]}" onto public java.lang.String cn.mrdear.controller.ProductController.findAllProds(org.springframework.ui.Model)
+2017-04-13 21:46:46.091  INFO 3632 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-04-13 21:46:46.091  INFO 3632 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-04-13 21:46:46.106  INFO 3632 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/ws] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2017-04-13 21:46:46.122  INFO 3632 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:46:46.122  INFO 3632 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:46:46.184  INFO 3632 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-13 21:46:46.936  WARN 3632 --- [main] arterDeprecationWarningAutoConfiguration : spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2017-04-13 21:46:47.014  INFO 3632 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-04-13 21:46:47.030  INFO 3632 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2017-04-13 21:46:47.030  INFO 3632 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2017-04-13 21:46:47.030  INFO 3632 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-04-13 21:46:47.030  INFO 3632 --- [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2017-04-13 21:46:47.092  INFO 3632 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8081 (http)
+2017-04-13 21:46:47.092  INFO 3632 --- [main] cn.mrdear.Application                    : Started Application in 8.799 seconds (JVM running for 9.675)
+2017-04-13 21:46:51.159  INFO 3632 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-04-13 21:46:51.159  INFO 3632 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-04-13 21:46:51.180  INFO 3632 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2017-04-13 21:46:51.493 DEBUG 3632 --- [http-nio-8081-exec-3] n.s.e.constructs.web.filter.Filter       : Request Headers: host -> localhost:8081: connection -> keep-alive: accept -> */*: if-modified-since -> Thu, 13 Apr 2017 13:44:09 GMT: user-agent -> Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.5.0.15179: referer -> http://localhost:8081/ws: accept-encoding -> gzip, deflate: accept-language -> zh-CN,zh;q=0.8
+2017-04-13 21:46:51.494 DEBUG 3632 --- [http-nio-8081-exec-3] n.s.e.constructs.web.filter.GzipFilter   : http://localhost:8081/jquery.js. Writing with gzip compression
+2017-04-13 21:46:51.496 DEBUG 3632 --- [http-nio-8081-exec-4] n.s.e.constructs.web.filter.Filter       : Request Headers: host -> localhost:8081: connection -> keep-alive: accept -> */*: if-modified-since -> Thu, 13 Apr 2017 13:44:09 GMT: user-agent -> Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.5.0.15179: referer -> http://localhost:8081/ws: accept-encoding -> gzip, deflate: accept-language -> zh-CN,zh;q=0.8
+2017-04-13 21:46:51.496 DEBUG 3632 --- [http-nio-8081-exec-4] n.s.e.constructs.web.filter.GzipFilter   : http://localhost:8081/stomp.min.js. Writing with gzip compression
+2017-04-13 21:46:51.498 DEBUG 3632 --- [http-nio-8081-exec-2] n.s.e.constructs.web.filter.Filter       : Request Headers: host -> localhost:8081: connection -> keep-alive: accept -> */*: if-modified-since -> Thu, 13 Apr 2017 13:44:09 GMT: user-agent -> Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.108 Safari/537.36 2345Explorer/8.5.0.15179: referer -> http://localhost:8081/ws: accept-encoding -> gzip, deflate: accept-language -> zh-CN,zh;q=0.8
+2017-04-13 21:46:51.499 DEBUG 3632 --- [http-nio-8081-exec-2] n.s.e.constructs.web.filter.GzipFilter   : http://localhost:8081/sockjs.min.js. Writing with gzip compression
+2017-04-13 21:47:45.680  INFO 3632 --- [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 21], outboundChannelpool size = 4, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 12]
