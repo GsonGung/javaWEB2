@@ -16,4 +16,6 @@
     <defaultCache maxElementsInMemory="1000" maxElementsOnDisk="3600" eternal="false" overflowToDisk="true" timeToIdleSeconds="3600" timeToLiveSeconds="86400" diskExpiryThreadIntervalSeconds="120" memoryStoreEvictionPolicy="LRU"/>
 
     <cache name="hello" maxElementsInMemory="1000" timeToIdleSeconds="3600" timeToLiveSeconds="86400" eternal="false" overflowToDisk="true" />
+    
+    <cache name="people" maxElementsInMemory="1000" />
 </ehcache>  

@@ -27,6 +27,11 @@
       <groupId>org.springframework.boot</groupId>  
       <artifactId>spring-boot-starter-redis</artifactId>  
     </dependency>
+    <!-- 添加对mongodb的支持 -->
+    <dependency>
+	  <groupId>org.springframework.boot</groupId>
+	  <artifactId>spring-boot-starter-data-mongodb</artifactId>
+	</dependency>
     <!-- 添加对thymeleaf的支持-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -37,6 +42,22 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-test</artifactId>
 		<scope>test</scope>
+	</dependency>
+	<!-- 添加对jpa的支持 -->
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-jpa</artifactId>
+	</dependency>
+	<!-- 添加对restful的支持 -->
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-rest</artifactId>
+	</dependency>
+	<!-- google工具类 -->
+	<dependency>
+		<groupId>com.google.guava</groupId>
+		<artifactId>guava</artifactId>
+		<version>18.0</version>
 	</dependency>
     <!--mybatis start-->
     <dependency>
@@ -96,11 +117,11 @@
     <!--druid end-->
 
     <!--mysql start-->
-    <dependency>
+<!--     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>5.1.39</version>
-    </dependency>
+    </dependency> -->
     <!--mysql end-->
 
     <!--fast json start-->
